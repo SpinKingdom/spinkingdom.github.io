@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Coin Spinner Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Coin Spinner</h1>
+    
+    <div id="loginBox">
+      <input type="text" id="username" placeholder="Enter username">
+      <button onclick="login()">Login</button>
+    </div>
+
+    <div id="gameBox" style="display:none;">
+      <h2>Welcome, <span id="userDisplay"></span></h2>
+      <p>Coins: <span id="coinCount">0</span></p>
+      <button onclick="spinWheel()">🎰 Spin</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
